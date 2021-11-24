@@ -2,7 +2,7 @@
 <img
 		width="250"
 		alt="Swall - React Native"
-		src="https://github.com/RKC105/Swall/blob/main/assets/images/icon.png">
+		src="https://github.com/RKC105/SwallProject/blob/master/screenshots/SplashScreen.png">
 </h1>
 <h3 align="center">
 	Swall - React Native Application
