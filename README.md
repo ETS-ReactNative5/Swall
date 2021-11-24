@@ -1,6 +1,6 @@
 <h1 align="center">
 <img
-		width="250"
+		width="700"
 		alt="Swall - React Native"
 		src="https://github.com/RKC105/SwallProject/blob/master/screenshots/Swall%20Feature%20Graphics.png">
 </h1>
