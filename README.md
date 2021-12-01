@@ -13,25 +13,25 @@ Swall is a drinking game application that includes 5 drinking games. The user se
 
 **1. Swall**
 <h1 align="center">
-<img width="210" alt="Swall Game"src="https://github.com/RKC105/Swall/blob/main/screenshots/swallGame.gif">
+<img width="210" alt="Swall Game"src="https://github.com/RKC105/SwallProject/blob/master/screenshots/swallGame.gif">
 </h1>
 
 **2. Never Have I Ever**
 <h1 align="center">
-<img width="210" alt="Swall Game"src="https://github.com/RKC105/Swall/blob/main/screenshots/neverEverGame.gif">
+<img width="210" alt="Swall Game"src="https://github.com/RKC105/SwallProject/blob/master/screenshots/neverEverGame.gif">
 </h1>
 
 **3. 5 Seconds**
 <h1 align="center">
-<img width="210" alt="Swall Game"src="https://github.com/RKC105/Swall/blob/main/screenshots/fiveSceondsGame.gif">
+<img width="210" alt="Swall Game"src="https://github.com/RKC105/SwallProject/blob/master/screenshots/fiveSecondsGame.gif">
 </h1>
 
 **4. King's Cup**
 <h1 align="center">
-<img width="210" alt="Swall Game"src="https://github.com/RKC105/Swall/blob/main/screenshots/kingsGame.gif">
+<img width="210" alt="Swall Game"src="https://github.com/RKC105/SwallProject/blob/master/screenshots/kingsGame.gif">
 </h1>
 
 **5. Most Likely To**
 <h1 align="center">
-<img width="210" alt="Swall Game"src="https://github.com/RKC105/Swall/blob/main/screenshots/mostLikelyGame.gif">
+<img width="210" alt="Swall Game"src="https://github.com/RKC105/SwallProject/blob/master/screenshots/mostLikelyGame.gif">
 </h1>
