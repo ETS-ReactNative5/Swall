@@ -75,7 +75,7 @@ const NeverEverScreen = props => {
     return (
       <View style={styles.cardSize}>
         <View style={{flex: 0.2,  width: '90%', borderBottomColor: Colors.Purple, borderBottomWidth: 2, borderRadius: 10, alignSelf: 'center', alignItems: 'center', justifyContent: 'center'}}>
-          <Text style={styles.cardtitletext} numberOfLines={1} >Never have i ever... </Text>
+          <Text style={styles.cardtitletext} numberOfLines={1} >Never have i ever</Text>
         </View>
         <View style={{flex: 0.8, alignItems: 'center', justifyContent: 'center', marginHorizontal: 30,}}>
         <Image source={require('../images/gamesIcons/neverIcon.png')} style={styles.cardImage}/>

@@ -144,8 +144,7 @@ const ChooseDeckModal = props => {
             <View style={{flex: 0.25, justifyContent: 'center', alignItems: 'center'}}>
                 <TouchableCmp onPress={() => setBuyModal(!showBuyModal)} style={{justifyContent: 'center', alignItems: 'center',backgroundColor: props.modalColor, height: '80%' , width: '80%', borderRadius: 20}}>
                 <Text style={{fontFamily: 'norwester', fontSize: 35, textAlign: 'center', color: 'white'}}>Unlock Now!</Text>
-                <Text style={{fontFamily: 'norwester', fontSize: 15, textAlign: 'center', color: 'white'}}>20 Decks, 2000+ cards!</Text>
-                <Text style={{fontFamily: 'norwester', fontSize: 15, textAlign: 'center', color: 'white'}}>Only £2.99!</Text>
+                <Text style={{fontFamily: 'norwester', fontSize: 15, textAlign: 'center', color: 'white'}}>Additional 14 Decks!</Text>
                 </TouchableCmp>
 
             </View>

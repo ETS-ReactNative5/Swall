@@ -1,4 +1,4 @@
-import React , { useState }  from 'react';
+import React , { useEffect, useState }  from 'react';
 import {
     FlatList,
     StyleSheet,
@@ -19,12 +19,44 @@ import SwallGridTile from '../components/SwallGridTile';
 import { GAMES } from '../data/games-data';
 import ChooseGameModal from '../modals/ChooseGameModal';
 import BuyDecksModal from '../modals/BuyDecksModal';
+import Purchases from 'react-native-purchases';
+import { ENTITLEMENT_ID } from '../constants';
+import {LinearGradient} from 'expo-linear-gradient'
 
 
 const ChooseGameScreen = props => {
     let TouchableCmp = TouchableOpacity;
     LogBox.ignoreAllLogs();
 
+    const [openBuy, setOpenBuy] = useState(false);
+    const [isUserPro, setIsUserPro] = useState(false);
+
+      const performProCheck = async () => {
+        try {
+          const purchaserInfo =  await Purchases.getPurchaserInfo();
+          if(typeof purchaserInfo.entitlements.active[ENTITLEMENT_ID] !== "undefined") {
+            // Grant user "pro" acces
+            setIsUserPro(true);
+            console.log(isUserPro)
+            setOpenBuy(true)
+          }
+          else {
+            console.log("not pro")
+          }
+          // access latest purchaserInfo
+        } catch (e) {
+         // Error fetching purchaser info
+         Alert.alert("Error has occured", e)
+        }
+      };
+  let mounted = true;
+
+  
+      useEffect(() => {
+       performProCheck();
+      }, []);
+   
+        
     //////////// adding buy decks modal //////////////////
   const [showBuyModal,setBuyModal] = useState(false);
 
@@ -107,7 +139,7 @@ const ChooseGameScreen = props => {
         numColumns={2}
         />
         </View>
-        <TouchableCmp onPress={() => setBuyModal(!showBuyModal)} style={styles.bottomScreen}>
+        <TouchableCmp disabled={openBuy} onPress={() => setBuyModal(!showBuyModal)} style={styles.bottomScreen}>
         <Image 
          style={styles.imageTitle}
          source={require('../images/logos/SwallLogo.png')} 

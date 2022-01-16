@@ -8,10 +8,16 @@ import {
   Text,
   useColorScheme,
   View,
+  Platform
 } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import * as Font from 'expo-font';
 import SwallNavigator from './navigation/SwallNavigator';
+import SplashScreen from  "react-native-splash-screen";
+import Purchases from "react-native-purchases";
+import DeviceInfo from 'react-native-device-info';
+import { ENTITLEMENT_ID, IOS_API_KEY } from './constants';
+
 
 
 
@@ -25,6 +31,26 @@ const fetchFonts = () => {
 
 
 export default function App(){
+
+  
+
+
+  useEffect(()=> {
+    Purchases.setDebugLogsEnabled(true);
+
+    if (Platform.OS === 'ios') {
+     Purchases.setup(IOS_API_KEY)
+     console.log(IOS_API_KEY)
+    }
+  }, []);
+
+
+  let deviceId = DeviceInfo.getUniqueId();
+  //console.log(deviceId)
+
+  useEffect(() => {
+    SplashScreen.hide();
+  });
   const [fontLoaded, setFontLoaded] = useState(false);
   if (!fontLoaded) {
     return (

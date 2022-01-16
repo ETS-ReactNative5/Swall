@@ -11,13 +11,13 @@ export const SWALLDECKS = [
         'g1',
         'Party Time', 
         require('../images/editions/partyIcon.png'), 
-        '264'),
+        '260'),
     new Deck(
         'ed2',
         'g1',
         'Bar Crawl', 
         require('../images/editions/barIcon.png'), 
-        '177')
+        '170')
 ]
 
 ///////////////////////////    243   PARTYCARDS        ////////////////////////////////////////////////////////////

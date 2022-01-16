@@ -11,11 +11,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3587CC84687AC1B03710D407 /* libPods-SwallProject-SwallProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A183E948ECCCDE8E4F9F467 /* libPods-SwallProject-SwallProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		95C63F218F00CB5F0E892DF0 /* libPods-SwallProject-SwallProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D167D4CF5BB4545183CE7E3A /* libPods-SwallProject-SwallProjectTests.a */; };
 		960CA8C0686305987C4C7279 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC39D22DA812AE1F31E841CC /* ExpoModulesProvider.swift */; };
 		A8F19813EFE6D96A02F8AC29 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDC73CED3FC0FE48A46DC8A /* ExpoModulesProvider.swift */; };
-		EA0F886C56558EFF39A4995B /* libPods-SwallProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A440099F65E9D0BFFFAADF4 /* libPods-SwallProject.a */; };
+		C198D4174608D0D90878B288 /* libPods-SwallProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30D30DEDDEC3FC881C3424C /* libPods-SwallProject.a */; };
+		F4E5E62D2743F77A0071BA30 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E5E62C2743F77A0071BA30 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +39,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SwallProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwallProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SwallProject/main.m; sourceTree = "<group>"; };
-		32C7D6D36E4428F1755AA992 /* Pods-SwallProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallProject.debug.xcconfig"; path = "Target Support Files/Pods-SwallProject/Pods-SwallProject.debug.xcconfig"; sourceTree = "<group>"; };
-		62ABF85FB821D83B74FFD5CE /* Pods-SwallProject-SwallProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallProject-SwallProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		669317080AE425BCEBF2A9A0 /* Pods-SwallProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallProject.release.xcconfig"; path = "Target Support Files/Pods-SwallProject/Pods-SwallProject.release.xcconfig"; sourceTree = "<group>"; };
-		6A183E948ECCCDE8E4F9F467 /* libPods-SwallProject-SwallProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwallProject-SwallProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A440099F65E9D0BFFFAADF4 /* libPods-SwallProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwallProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CBB6977F8E6C2A5C8E07029 /* Pods-SwallProject-SwallProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallProject-SwallProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		3656A1EEC8005C37B4CB2743 /* Pods-SwallProject-SwallProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallProject-SwallProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		4054CFC990E9125FA39DC243 /* Pods-SwallProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallProject.release.xcconfig"; path = "Target Support Files/Pods-SwallProject/Pods-SwallProject.release.xcconfig"; sourceTree = "<group>"; };
+		59A3126D65A7068A70787219 /* Pods-SwallProject-SwallProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallProject-SwallProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6211A1665B6C5F045DEBB57A /* Pods-SwallProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallProject.debug.xcconfig"; path = "Target Support Files/Pods-SwallProject/Pods-SwallProject.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SwallProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A30D30DEDDEC3FC881C3424C /* libPods-SwallProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwallProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D167D4CF5BB4545183CE7E3A /* libPods-SwallProject-SwallProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwallProject-SwallProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC39D22DA812AE1F31E841CC /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-SwallProject/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		DDDC73CED3FC0FE48A46DC8A /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-SwallProject-SwallProjectTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F4E5E62C2743F77A0071BA30 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3587CC84687AC1B03710D407 /* libPods-SwallProject-SwallProjectTests.a in Frameworks */,
+				95C63F218F00CB5F0E892DF0 /* libPods-SwallProject-SwallProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0F886C56558EFF39A4995B /* libPods-SwallProject.a in Frameworks */,
+				F4E5E62D2743F77A0071BA30 /* StoreKit.framework in Frameworks */,
+				C198D4174608D0D90878B288 /* libPods-SwallProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +106,10 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4E5E62C2743F77A0071BA30 /* StoreKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6A440099F65E9D0BFFFAADF4 /* libPods-SwallProject.a */,
-				6A183E948ECCCDE8E4F9F467 /* libPods-SwallProject-SwallProjectTests.a */,
+				A30D30DEDDEC3FC881C3424C /* libPods-SwallProject.a */,
+				D167D4CF5BB4545183CE7E3A /* libPods-SwallProject-SwallProjectTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,12 +165,11 @@
 		8CB1942DEBFF9BC5C3969201 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32C7D6D36E4428F1755AA992 /* Pods-SwallProject.debug.xcconfig */,
-				669317080AE425BCEBF2A9A0 /* Pods-SwallProject.release.xcconfig */,
-				62ABF85FB821D83B74FFD5CE /* Pods-SwallProject-SwallProjectTests.debug.xcconfig */,
-				6CBB6977F8E6C2A5C8E07029 /* Pods-SwallProject-SwallProjectTests.release.xcconfig */,
+				6211A1665B6C5F045DEBB57A /* Pods-SwallProject.debug.xcconfig */,
+				4054CFC990E9125FA39DC243 /* Pods-SwallProject.release.xcconfig */,
+				59A3126D65A7068A70787219 /* Pods-SwallProject-SwallProjectTests.debug.xcconfig */,
+				3656A1EEC8005C37B4CB2743 /* Pods-SwallProject-SwallProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,12 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SwallProjectTests" */;
 			buildPhases = (
-				3373C5AB07F22CAE80EE60B9 /* [CP] Check Pods Manifest.lock */,
+				7A15D8D1C8B0DB4B1666E91C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				D02F9770A3F982B71BDDE033 /* [CP] Embed Pods Frameworks */,
-				523D5F865E5061EF0CA8681A /* [CP] Copy Pods Resources */,
+				6C1FC9935742C63E7C0BC784 /* [CP] Embed Pods Frameworks */,
+				0E4162A0F5943B727388F017 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,14 +210,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SwallProject" */;
 			buildPhases = (
-				2CFFCFF1C0E33C23B3162C89 /* [CP] Check Pods Manifest.lock */,
+				6D457C19F7234E159FDBE0F9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				FC01FE4B4864CF12D94626AC /* [CP] Embed Pods Frameworks */,
-				652FD715D26F5FFD60362921 /* [CP] Copy Pods Resources */,
+				02A1062CC829D82550D5889D /* [CP] Embed Pods Frameworks */,
+				DFEAD1A14284C3D995DE8EBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,7 +234,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -295,7 +298,58 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		2CFFCFF1C0E33C23B3162C89 /* [CP] Check Pods Manifest.lock */ = {
+		02A1062CC829D82550D5889D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwallProject/Pods-SwallProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwallProject/Pods-SwallProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwallProject/Pods-SwallProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E4162A0F5943B727388F017 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1FC9935742C63E7C0BC784 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D457C19F7234E159FDBE0F9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,7 +371,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3373C5AB07F22CAE80EE60B9 /* [CP] Check Pods Manifest.lock */ = {
+		7A15D8D1C8B0DB4B1666E91C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,24 +393,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		523D5F865E5061EF0CA8681A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		652FD715D26F5FFD60362921 /* [CP] Copy Pods Resources */ = {
+		DFEAD1A14284C3D995DE8EBE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,40 +408,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwallProject/Pods-SwallProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D02F9770A3F982B71BDDE033 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwallProject-SwallProjectTests/Pods-SwallProject-SwallProjectTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC01FE4B4864CF12D94626AC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwallProject/Pods-SwallProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwallProject/Pods-SwallProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwallProject/Pods-SwallProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -461,8 +464,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62ABF85FB821D83B74FFD5CE /* Pods-SwallProject-SwallProjectTests.debug.xcconfig */;
+			baseConfigurationReference = 59A3126D65A7068A70787219 /* Pods-SwallProject-SwallProjectTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -488,8 +492,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CBB6977F8E6C2A5C8E07029 /* Pods-SwallProject-SwallProjectTests.release.xcconfig */;
+			baseConfigurationReference = 3656A1EEC8005C37B4CB2743 /* Pods-SwallProject-SwallProjectTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = SwallProjectTests/Info.plist;
@@ -512,11 +517,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32C7D6D36E4428F1755AA992 /* Pods-SwallProject.debug.xcconfig */;
+			baseConfigurationReference = 6211A1665B6C5F045DEBB57A /* Pods-SwallProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q8GPNJJ4Q;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SwallProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -528,7 +534,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkc105.SwallProject;
 				PRODUCT_NAME = SwallProject;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -538,11 +544,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 669317080AE425BCEBF2A9A0 /* Pods-SwallProject.release.xcconfig */;
+			baseConfigurationReference = 4054CFC990E9125FA39DC243 /* Pods-SwallProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q8GPNJJ4Q;
 				INFOPLIST_FILE = SwallProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,7 +560,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkc105.SwallProject;
 				PRODUCT_NAME = SwallProject;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -681,6 +688,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

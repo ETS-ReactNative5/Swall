@@ -28,7 +28,8 @@ const KingsScreen = props => {
   };
   const showBack = () => {setBackModal(!showBackModal)};
   const leave = () => { setBackModal(!showBackModal)
-    props.navigation.navigate('GamesScreen')};
+    props.navigation.navigate('GamesScreen')
+  };
 
   useEffect(() =>{
     props.navigation.setParams({getbackmodal: showBack})
@@ -88,16 +89,13 @@ const countCards = (idx) => {
 ///// Setting up game over modal /////////////////////////////////////////////////////////////////
 const [showGameOverModal,setGameOverShowModal] = useState(false);
 const showGameover = () => {setGameOverShowModal(!showGameOverModal)};
-const gameleave = () => { setGameOverShowModal(!showGameOverModal)
-   props.navigation.navigate({
-  routeName: 'GamesScreen'
-})}
+
 
 const StartGameOverModal =  () => {
     return(
      <GameoverModal
      showGameover={showGameOverModal}
-     leave = {gameleave}
+     leave = {leave}
      />
     )
 };
